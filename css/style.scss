@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+
+}
+
+header{
+    background-color:#dd0244;
+    width: 100%;
+    top: 0;
+    // color: #fff;
+    // font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+     
+    // font: 18px Showcard Gothic; 
+    
+}
+
+.logo{
+    background-color: #fff;
+    color: #dd0244;
+    font: 28px IMPACT;
+    padding: 10px 12px;
+    max-width: 110px;
+    border-radius: 30px;
+}
+
+nav 
+{
+    ul {
+        position: fixed;
+        background-color: #491647;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        width: 100%;
+
+    li{
+        float: left;
+        border-right:1px solid #fff;
+
+
+        a {
+            display: block;
+            // font: 14px Segoe UI; 
+            font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+            color: #FFF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+  
+        a:hover:not(.active){
+            background-color: #111;
+        }
+  
+        .active {
+            background-color: #7c265e;
+        }
+
+        }
+    }
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
