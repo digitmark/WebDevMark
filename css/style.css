@@ -62,6 +62,10 @@ nav ul li .active {
   z-index: 1;
 }
 
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 article {
   float: left;
   margin: auto;
