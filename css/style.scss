@@ -10,34 +10,43 @@ html{
 body{
     margin: 0;
     // background-image: url(../img/flag.jpg);
+    background-color: #eae7e6;
     
 
 }
 
-header{
-    background-color:#dd0244;
-    width: 100%;
-    top: 0;
-    // color: #fff;
-    // font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+
+
+// header{
+//     background-color:fff;
+
+//     width: 100%;
+//     top: 0;
+//     // color: #fff;
+//     // font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
      
-    // font: 18px Showcard Gothic; 
+//     // font: 18px Showcard Gothic; 
+//     box-shadow: 5px 10px #888888;
     
-}
+// }
 
-.logo{
-    // background-color: #fff;
-    color: #fff;
-    font: 28px IMPACT;
-    padding: 20px 12px;
-    border-radius: 30px;
-}
+
 
 nav 
 {
+    .logo{
+        // background-color: #fff;
+        color: #b687a0;
+        font: 28px IMPACT;
+        padding: 20px 12px;
+        border-radius: 30px;
+        display: inline;
+    }
+       
     ul {
         // position: fixed;
-        background-color: #491647;
+        background-color:#fff;
+        top: 0;
         margin: 0;
         padding: 0;
         list-style-type: none;
@@ -45,24 +54,22 @@ nav
         width: 100%;
 
     li{
-        float: left;
-        border-right:1px solid #fff;
+        float: right;
+        // border-right:1px solid #fff;
 
-        .dropdown{
-            display: inline-block;
-        }
+        // .dropdown{
+        //     display: inline-block;
+        // }
 
-
+    
         a {
             display: block;
             // font: 14px Segoe UI; 
             font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-            color: #FFF;
+            color: #000;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-
-              
         }
   
         a:hover:not(.active){
@@ -77,18 +84,18 @@ nav
     }
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+// .dropdown-content {
+//     display: none;
+//     position: absolute;
+//     background-color: #f9f9f9;
+//     min-width: 160px;
+//     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+//     z-index: 1;
+//   }
 
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+//   .dropdown:hover .dropdown-content {
+//     display: block;
+//   }
 
 article{
     // position: absolute;
@@ -126,7 +133,7 @@ footer{
     width: 100%;
     bottom: 0;
     padding: 40px 15px;
-    background-color: #ccc;
+    // background-color: #ccc;
     
 
     a{
