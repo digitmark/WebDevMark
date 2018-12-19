@@ -11,95 +11,56 @@ body{
     margin: 0;
     padding: 0;
     // background-image: url(../img/flag.jpg);
-    background-color: #eae7e6;
+    // background-color: #eae7e6;
 }
-
-
-
-    
-
-// header{
-//     background-color:fff;
-
-//     width: 100%;
-//     top: 0;
-//     // color: #fff;
-//     // font: 16px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-     
-//     // font: 18px Showcard Gothic; 
-//     box-shadow: 5px 10px #888888;
-    
-// }
-
-
-//---------------------Previous CSS----------------------------
 
 nav 
 {
     width: 100%;
     background-color:#fff;
-        top: 0;
-        margin: 0;
+    margin: 0 auto;
+    height: 60px;
+    text-align: center;
+    box-shadow:0px 1px 10px #333;  
 
-    a.logo{
-        // background-color: #fff;
+    a#logo{
         float:left;
         color: #b687a0;
         font: 22px IMPACT;
         padding: 16px 18px;
         text-decoration: none;
-        // display: inline;
         text-align: center;
 
     }
        
     ul {
-        // position: fixed;
-        // display: inline;
         list-style-type: none;
         overflow: hidden;
-        padding: 0px;
-        margin: 0px;
+        padding: 0;
+        margin: 0;
         text-align: center;
-        display:inline-block;
+        // display:inline;
         vertical-align:top;
-        // float: right;
+        float: right;
         
         
-
     li{
-        // float: right;
-        // border-right:1px solid #fff;
-
-        // .dropdown{
-        //     display: inline-block;
-        // }
-        // list-style-type: none;
-        padding: 0px;
-        // height: 24px;
-        // margin-top: 4px;
-        // margin-bottom: 4px;
-        display: inline;
-
-    
+        // display: inline;
+        float: left;
+        
         a {
-            // display: block;
-            // // font: 14px Segoe UI; 
-            // font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-            // color: #000;
+            display: block;
             text-align: center;
-            // padding: 14px 16px;
-            // text-decoration: none;
-            
             color: #000;
             font: 14px Segoe UI;
             text-decoration: none;
-            line-height: 70px;
-            padding: 5px 15px;
+            line-height: 60px;
+            padding: 0px 15px;
         }
   
         a:hover:not(.active){
             background-color: #111;
+            color: #fff;
         }
   
         .active {
@@ -110,42 +71,55 @@ nav
     }
 }
 
-// .dropdown-content {
-//     display: none;
-//     position: absolute;
-//     background-color: #f9f9f9;
-//     min-width: 160px;
-//     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-//     z-index: 1;
-//   }
+.main-body{
+    margin-top: 20px;
+}
 
-//   .dropdown:hover .dropdown-content {
-//     display: block;
-//   }
+
+
+
+/* Clear floats after the columns */
+.main-body:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 article{
     // position: absolute;
     float: left;
     margin: auto;
     width: 60%;
-    padding: 0 20px;
+    padding: 8px 20px;
     overflow: hidden;
+    border: 2px solid #000;    
 }
 
 .ad1, .ad2{
     float: left;
     width: 20%;
     padding: 8px;
-    margin-top: 7px;
+    border: 2px solid #000;    
 }
+
 
 @media only screen and (max-width:800px) {
     /* For mobile phones: */
+    ul{
+        width:100%;
+    }
+
     li {
       width:100%;
     // float: none;
     border-bottom:1px solid #fff;
     }
+
+    a#logo{
+        width: 100%;
+
+    }
+
   
 
 article, .ad1, .ad2{
@@ -163,11 +137,11 @@ footer{
     
 
     a{
+    text-decoration: none;
     padding: 10px;
     margin: 5px;
-    border: 2px solid #000;    
-    color: #FFF;
+    border: 2px solid #000;
     font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
-    text-decoration: none;
+    color: #000;
     }
 }

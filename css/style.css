@@ -9,16 +9,17 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: #eae7e6;
 }
 
 nav {
   width: 100%;
   background-color: #fff;
-  top: 0;
-  margin: 0;
+  margin: 0 auto;
+  height: 60px;
+  text-align: center;
+  box-shadow: 0px 1px 10px #333;
 }
-nav a.logo {
+nav a#logo {
   float: left;
   color: #b687a0;
   font: 22px IMPACT;
@@ -29,51 +30,72 @@ nav a.logo {
 nav ul {
   list-style-type: none;
   overflow: hidden;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   text-align: center;
-  display: inline-block;
   vertical-align: top;
+  float: right;
 }
 nav ul li {
-  padding: 0px;
-  display: inline;
+  float: left;
 }
 nav ul li a {
+  display: block;
   text-align: center;
   color: #000;
   font: 14px Segoe UI;
   text-decoration: none;
-  line-height: 70px;
-  padding: 5px 15px;
+  line-height: 60px;
+  padding: 0px 15px;
 }
 nav ul li a:hover:not(.active) {
   background-color: #111;
+  color: #fff;
 }
 nav ul li .active {
   background-color: #7c265e;
+}
+
+.main-body {
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.main-body:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 article {
   float: left;
   margin: auto;
   width: 60%;
-  padding: 0 20px;
+  padding: 8px 20px;
   overflow: hidden;
+  border: 2px solid #000;
 }
 
 .ad1, .ad2 {
   float: left;
   width: 20%;
   padding: 8px;
-  margin-top: 7px;
+  border: 2px solid #000;
 }
 
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
+  ul {
+    width: 100%;
+  }
+
   li {
     width: 100%;
     border-bottom: 1px solid #fff;
+  }
+
+  a#logo {
+    width: 100%;
   }
 
   article, .ad1, .ad2 {
@@ -88,12 +110,12 @@ footer {
   padding: 40px 15px;
 }
 footer a {
+  text-decoration: none;
   padding: 10px;
   margin: 5px;
   border: 2px solid #000;
-  color: #FFF;
   font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
