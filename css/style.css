@@ -38,6 +38,7 @@ nav ul {
 }
 nav ul li {
   float: left;
+  border-right: 1px solid #ccc;
 }
 nav ul li a {
   display: block;
@@ -53,7 +54,7 @@ nav ul li a:hover:not(.active) {
   color: #fff;
 }
 nav ul li .active {
-  background-color: #7c265e;
+  background-color: #b687a0;
 }
 
 .main-body {
@@ -91,7 +92,7 @@ article {
 
   li {
     width: 100%;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
   }
 
   a#logo {
