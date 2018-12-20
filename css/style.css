@@ -50,7 +50,7 @@ nav ul li a {
   padding: 0px 15px;
 }
 nav ul li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #7F5E70;
   color: #fff;
 }
 nav ul li .active {
@@ -108,12 +108,13 @@ footer {
   border: 2px solid #000;
   width: 100%;
   bottom: 0;
-  padding: 40px 15px;
+  padding: 30px 10px;
 }
 footer a {
+  float: left;
   text-decoration: none;
-  padding: 10px;
-  margin: 5px;
+  padding: 5px;
+  margin: 2px;
   border: 2px solid #000;
   font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: #000;
