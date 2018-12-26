@@ -22,7 +22,7 @@ nav {
 nav #ctheme {
   float: right;
   padding: 12px;
-  background-color: #6e4719;
+  background-color: #a4a7ae;
   font: 14px Segoe UI;
   border: none;
   text-decoration: none;
@@ -34,7 +34,7 @@ nav #ctheme:focus {
 }
 nav a#logo {
   float: left;
-  color: #b687a0;
+  color: #0e2150;
   font: 22px IMPACT;
   padding: 16px 18px;
   text-decoration: none;
@@ -63,11 +63,11 @@ nav ul li a {
   padding: 0px 15px;
 }
 nav ul li a:hover:not(.active) {
-  background-color: #7F5E70;
+  background-color: #3b4b7d;
   color: #fff;
 }
 nav ul li .active {
-  background-color: #b687a0;
+  background-color: #8187b1;
 }
 
 .main-body {
