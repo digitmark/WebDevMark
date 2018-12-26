@@ -81,6 +81,23 @@ nav ul li .active {
   clear: both;
 }
 
+ul.breadcrumb {
+  padding: 6px 14px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+}
+ul.breadcrumb li a {
+  color: green;
+  text-decoration: none;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "> ";
+}
+
 article {
   float: left;
   margin: auto;
