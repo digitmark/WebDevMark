@@ -99,6 +99,32 @@ nav
     clear: both;
   }
 
+  ul.breadcrumb {
+    padding: 6px 14px;
+    list-style: none;
+    // background-color: #eee;
+
+    li {
+        
+        display: inline;
+    
+        a {
+            color: green;
+            text-decoration: none;
+
+        }
+    
+    }
+
+    li+li:before {
+        padding: 8px;
+        color: black;
+        content: "/\00a0";
+      }
+
+  }
+
+
 article{
     // position: absolute;
     float: left;
