@@ -84,18 +84,17 @@ nav ul li .active {
 }
 
 #ctheme {
-  float: right;
-  padding: 21px 18px;
-  background-color: #665358;
-  font: 14px Segoe UI;
-  border: none;
-  text-decoration: none;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: center;
-  color: #fff;
-}
-
-#ctheme:focus {
-  outline: 0;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  background-color: #8ae954;
 }
 
 ul.breadcrumb {
@@ -115,10 +114,37 @@ ul.breadcrumb li + li:before {
   content: "/ ";
 }
 
-#aurora {
+.container_ab {
+  display: none;
+}
+.container_ab #aurora {
   width: 100%;
   height: auto;
   display: none;
+}
+.container_ab .dets_ab {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 20px Segoe UI;
+}
+
+.container_aa {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container_aa #aurora2 {
+  width: 100%;
+  height: auto;
+}
+.container_aa .dets_aa {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 20px Segoe UI;
 }
 
 @media only screen and (max-width: 800px) {
