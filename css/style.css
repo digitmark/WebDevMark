@@ -20,19 +20,6 @@ nav {
   text-align: center;
   box-shadow: 0px 1px 10px #333;
 }
-nav #ctheme {
-  float: right;
-  padding: 12px;
-  background-color: #6e4719;
-  font: 14px Segoe UI;
-  border: none;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-}
-nav #ctheme:focus {
-  outline: 0;
-}
 nav a#logo {
   float: left;
   color: #b687a0;
@@ -74,12 +61,41 @@ nav ul li .active {
 .main-body {
   margin-top: 20px;
 }
+.main-body article {
+  float: left;
+  margin: auto;
+  width: 60%;
+  padding: 8px 20px;
+  overflow: hidden;
+  border: 2px solid #000;
+}
+.main-body .ad1, .main-body .ad2 {
+  float: left;
+  width: 20%;
+  padding: 8px;
+  border: 2px solid #000;
+}
 
 /* Clear floats after the columns */
 .main-body:after {
   content: "";
   display: table;
   clear: both;
+}
+
+#ctheme {
+  float: right;
+  padding: 21px 18px;
+  background-color: #665358;
+  font: 14px Segoe UI;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+#ctheme:focus {
+  outline: 0;
 }
 
 ul.breadcrumb {
@@ -99,55 +115,44 @@ ul.breadcrumb li + li:before {
   content: "/ ";
 }
 
-article {
-  float: left;
-  margin: auto;
-  width: 60%;
-  padding: 8px 20px;
-  overflow: hidden;
-  border: 2px solid #000;
-}
-
-.ad1, .ad2 {
-  float: left;
-  width: 20%;
-  padding: 8px;
-  border: 2px solid #000;
+#aurora {
+  width: 100%;
+  height: auto;
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
-  ul {
+  nav ul {
     width: 100%;
   }
-
-  li {
+  nav li {
     width: 100%;
     border-bottom: 1px solid #ccc;
   }
-
-  a#logo {
+  nav a#logo {
     width: 100%;
   }
 
-  article, .ad1, .ad2 {
+  .main-body article, .main-body .ad1, .main-body .ad2 {
     width: 100%;
   }
-}
-footer {
-  border: 2px solid #000;
-  width: 100%;
-  bottom: 0;
-  padding: 30px 10px;
-}
-footer a {
-  text-decoration: none;
-  overflow: auto;
-  padding: 5px;
-  margin: 2px;
-  border: 2px solid #000;
-  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #000;
+
+  footer {
+    border: 2px solid #000;
+    width: 100%;
+    bottom: 0;
+    padding: 30px 10px;
+  }
+  footer a {
+    text-decoration: none;
+    overflow: auto;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid #000;
+    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #000;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
