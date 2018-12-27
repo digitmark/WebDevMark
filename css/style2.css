@@ -86,7 +86,9 @@ nav ul li .active {
 #ctheme {
   position: fixed;
   top: 50%;
-  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
