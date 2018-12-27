@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box;
 }
@@ -111,7 +110,7 @@ ul.breadcrumb li a {
 ul.breadcrumb li + li:before {
   padding: 8px;
   color: black;
-  content: "/ ";
+  content: ">";
 }
 
 .container_ab {
