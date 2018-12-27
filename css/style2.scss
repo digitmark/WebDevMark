@@ -163,7 +163,7 @@ nav
         
         #aurora{
             width: 100%;
-            height: auto;
+            height: 100px auto;
             
         }
 
@@ -223,6 +223,7 @@ nav
         width: 100%;
         }
     }
+}
 
 footer{
     // position: fixed;
@@ -243,5 +244,4 @@ footer{
     font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
     color: #000;
     }
-}
 }

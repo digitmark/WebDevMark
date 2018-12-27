@@ -195,6 +195,8 @@ nav
     }
 
 
+
+
 @media only screen and (max-width:800px) {
     /* For mobile phones: */
     nav 
@@ -220,6 +222,7 @@ nav
         width: 100%;
         }
     }
+}
 
 footer{
     // position: fixed;
@@ -240,5 +243,4 @@ footer{
     font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
     color: #000;
     }
-}
 }

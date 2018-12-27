@@ -121,7 +121,7 @@ ul.breadcrumb li + li:before {
 }
 .container_ab #aurora {
   width: 100%;
-  height: auto;
+  height: 100px auto;
 }
 .container_ab .dets_ab {
   position: absolute;
@@ -165,22 +165,21 @@ ul.breadcrumb li + li:before {
   .main-body article, .main-body .ad1, .main-body .ad2 {
     width: 100%;
   }
-
-  footer {
-    border: 2px solid #000;
-    width: 100%;
-    bottom: 0;
-    padding: 30px 10px;
-  }
-  footer a {
-    text-decoration: none;
-    overflow: auto;
-    padding: 5px;
-    margin: 2px;
-    border: 2px solid #000;
-    font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    color: #000;
-  }
+}
+footer {
+  border: 2px solid #000;
+  width: 100%;
+  bottom: 0;
+  padding: 30px 10px;
+}
+footer a {
+  text-decoration: none;
+  overflow: auto;
+  padding: 5px;
+  margin: 2px;
+  border: 2px solid #000;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #000;
 }
 
 /*# sourceMappingURL=style2.css.map */
