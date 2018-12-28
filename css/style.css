@@ -102,6 +102,9 @@ hr {
   font-size: 20px;
   background-color: #8ae954;
 }
+#ctheme #sun {
+  display: none;
+}
 
 ul.breadcrumb {
   padding: 6px 14px;

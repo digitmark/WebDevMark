@@ -82,10 +82,13 @@ nav
         // position: absolute;
         float: left;
         margin: auto;
+        // margin-left: 20px;
+        // margin-right: 20px;
         width: 60%;
         padding: 8px 20px;
         overflow: hidden;
         border: 2px solid #000;    
+        
     }
     
     .ad1, .ad2{
@@ -135,7 +138,15 @@ hr{
     // text-decoration: none;
     // text-align: center;
     // color: #fff;
+
+    #sun{
+        display: none;
+    }
+
+
 }
+
+
 //   Changes
 
   ul.breadcrumb {

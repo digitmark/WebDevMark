@@ -95,6 +95,9 @@ nav ul li .active {
   font-size: 20px;
   background-color: #b687a0;
 }
+#ctheme #moon {
+  display: none;
+}
 
 ul.breadcrumb {
   padding: 6px 14px;
