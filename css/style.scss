@@ -26,7 +26,7 @@ nav
 
     a#logo{
         float:left;
-        color: #b687a0;
+        color: #c99bd2;
         font: 22px IMPACT;
         padding: 16px 18px;
         text-decoration: none;
@@ -62,13 +62,13 @@ nav
         }
   
         a:hover:not(.active){
-            background-color: #7F5E70;
+            background-color: #c99bd2;
             color: #fff;
         }
   
         .active {
             // background-color: #7c265e;
-            background-color: #b687a0;
+            background-color: #c99bd2;
         }
 
         }
@@ -244,7 +244,7 @@ hr{
 
 footer{
     // position: fixed;
-    border: 2px solid #000;    
+    // border: 2px solid #000;   
     width: 100%;
     bottom: 0;
     padding: 30px 10px;

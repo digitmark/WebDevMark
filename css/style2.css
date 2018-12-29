@@ -103,13 +103,13 @@ nav ul li .active {
   transition: all 0.1s ease;
   color: white;
   font-size: 20px;
-  background-color: #b687a0;
+  background-color: #c99bd2;
 }
 #ctheme #moon {
   display: none;
 }
 #ctheme #sun {
-  background-color: #b687a0;
+  background-color: #c99bd2;
 }
 
 ul.breadcrumb {

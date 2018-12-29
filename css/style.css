@@ -21,7 +21,7 @@ nav {
 }
 nav a#logo {
   float: left;
-  color: #b687a0;
+  color: #c99bd2;
   font: 22px IMPACT;
   padding: 16px 18px;
   text-decoration: none;
@@ -50,11 +50,11 @@ nav ul li a {
   padding: 0px 15px;
 }
 nav ul li a:hover:not(.active) {
-  background-color: #7F5E70;
+  background-color: #c99bd2;
   color: #fff;
 }
 nav ul li .active {
-  background-color: #b687a0;
+  background-color: #c99bd2;
 }
 
 .main-body {
@@ -174,7 +174,6 @@ ul.breadcrumb li + li:before {
   }
 }
 footer {
-  border: 2px solid #000;
   width: 100%;
   bottom: 0;
   padding: 30px 10px;
