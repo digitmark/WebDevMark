@@ -1,5 +1,6 @@
 @charset "UTF-8";
 * {
+  background-color: #2d2d2d;
   box-sizing: border-box;
 }
 
@@ -22,9 +23,9 @@ nav {
 }
 nav a#logo {
   float: left;
-  color: #b687a0;
+  color: white;
   font: 22px IMPACT;
-  padding: 16px 18px;
+  padding: 17px 18px;
   text-decoration: none;
   text-align: center;
 }
@@ -44,36 +45,45 @@ nav ul li {
 nav ul li a {
   display: block;
   text-align: center;
-  color: #000;
+  color: #fff;
   font: 14px Segoe UI;
   text-decoration: none;
   line-height: 60px;
   padding: 0px 15px;
 }
 nav ul li a:hover:not(.active) {
-  background-color: #7F5E70;
-  color: #fff;
+  background-color: #818181;
+  color: #000;
 }
 nav ul li .active {
-  background-color: #b687a0;
+  background-color: #000;
 }
 
 .main-body {
   margin-top: 20px;
 }
 .main-body article {
+  color: #fff;
   float: left;
   margin: auto;
   width: 60%;
   padding: 8px 20px;
   overflow: hidden;
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
-.main-body .ad1, .main-body .ad2 {
+.main-body .ad1 {
+  color: #fff;
   float: left;
   width: 20%;
   padding: 8px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
+}
+.main-body .ad2 {
+  color: #fff;
+  float: left;
+  width: 20%;
+  padding: 8px;
+  border: 2px solid #fff;
 }
 
 /* Clear floats after the columns */
@@ -90,7 +100,7 @@ nav ul li .active {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding: 16px;
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   color: white;
   font-size: 20px;
   background-color: #b687a0;
@@ -98,21 +108,25 @@ nav ul li .active {
 #ctheme #moon {
   display: none;
 }
+#ctheme #sun {
+  background-color: #b687a0;
+}
 
 ul.breadcrumb {
   padding: 6px 14px;
   list-style: none;
 }
 ul.breadcrumb li {
+  color: #fff;
   display: inline;
 }
 ul.breadcrumb li a {
-  color: green;
+  color: #818181;
   text-decoration: none;
 }
 ul.breadcrumb li + li:before {
   padding: 8px;
-  color: black;
+  color: #fff;
   content: "/ ";
 }
 
@@ -169,7 +183,7 @@ ul.breadcrumb li + li:before {
   }
 }
 footer {
-  border: 2px solid #000;
+  border: 2px solid #fff;
   width: 100%;
   bottom: 0;
   padding: 30px 10px;
@@ -179,9 +193,9 @@ footer a {
   overflow: auto;
   padding: 5px;
   margin: 2px;
-  border: 2px solid #000;
+  border: 2px solid #fff;
   font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #000;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style2.css.map */
