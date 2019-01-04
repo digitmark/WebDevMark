@@ -5,3 +5,5 @@ https://www.coursera.org/learn/python-text-mining?specialization=data-science-py
 https://www.geeksforgeeks.org/python-programming-language/
 
 https://www.link-assistant.com/pdf/8-major-google-algorithm-updates-explained.pdf
+
+https://www.google.com/search/howsearchworks/
