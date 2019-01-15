@@ -21,3 +21,9 @@ https://colorlib.com/wp/free-blogger-templates/
 https://www.puretech.com/about-career.html
 https://www.limratechnosys.com/career/
 https://www.fyagroup.com/
+
+
+
+
+http://blog.aylien.com/build-your-own-sentiment-analysis-tool-in-10-minutes-with-aylien-google-sheets-add-on-ifttt/
+https://towardsdatascience.com/sentiment-analysis-with-text-mining-13dd2b33de27
