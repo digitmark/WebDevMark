@@ -27,3 +27,4 @@ https://www.fyagroup.com/
 
 http://blog.aylien.com/build-your-own-sentiment-analysis-tool-in-10-minutes-with-aylien-google-sheets-add-on-ifttt/
 https://towardsdatascience.com/sentiment-analysis-with-text-mining-13dd2b33de27
+https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/how-tos/text-analytics-how-to-sentiment-analysis
