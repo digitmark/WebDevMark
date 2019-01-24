@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><b>Country of freedom</b></title>
+</head>
+<body>
+<p>The earliest authenticated human remains in South Asia date to about 30,000 years ago.[33] Nearly contemporaneous Mesolithic rock art sites have been found in many parts of the Indian subcontinent, including at the Bhimbetka rock shelters in Madhya Pradesh.[34] Around 7000 BCE, one of the first known Neolithic settlements appeared on the subcontinent in Mehrgarh and other sites in the subcontinent.[35] These gradually developed into the Indus Valley Civilisation,[36] the first urban culture in South Asia;[37] it flourished during 2500–1900 BCE in northeast Afghanistan to Pakistan and northwest India. [38] Centred around cities such as Mohenjo-daro, Harappa, Dholavira, and Kalibangan, and relying on varied forms of subsistence, the civilisation engaged robustly in crafts production and wide-ranging trade.</p> <br>
+<p>
+In the early 16th century, northern India, being then under mainly Muslim rulers,[75] fell again to the superior mobility and firepower of a new generation of Central Asian warriors.[76] The resulting Mughal Empire did not stamp out the local societies it came to rule, but rather balanced and pacified them through new administrative practices[77][78] and diverse and inclusive ruling elites,[79] leading to more systematic, centralised, and uniform rule.[80] Eschewing tribal bonds and Islamic identity, especially under Akbar, the Mughals united their far-flung realms through loyalty, expressed through a Persianised culture, to an emperor who had near-divine status.[79] The Mughal state's economic policies, deriving most revenues from agriculture[81] and mandating that taxes be paid in the well-regulated silver currency,[82] caused peasants and artisans to enter larger markets.</p>
+</body>
+</html>
